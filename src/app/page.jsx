@@ -1,6 +1,9 @@
 import TaskCard from "@/components/TaskCard";
 import { prisma } from "@/libs/prisma";
 
+//export const revalidate = 60;
+export const dynamic = 'force-dynamic';
+
 const HomePage = async () => {
   const loadTasks = async () => {
     // const res = await fetch("http://localhost:3000/api/tasks");
@@ -8,7 +11,6 @@ const HomePage = async () => {
     // console.log(data);
     return await prisma.task.findMany();
   };
-
   const tasks = await loadTasks();
   console.log(tasks);
 
