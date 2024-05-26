@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+## 💻 Demo App
+Click here to [Open Demo Tasks App](https://raw.githubusercontent.com/JhamG9/nextjs-crud-task/main/public/demo-task-app.png)
+![Demo Dragon Ball Astro App](https://raw.githubusercontent.com/JhamG9/nextjs-crud-task/main/public/demo-task-app.png)
+## 🚀 Project Structure
+
+
+
 ## Getting Started
 
 First, run the development server:
